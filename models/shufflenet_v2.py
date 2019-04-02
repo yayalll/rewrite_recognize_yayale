@@ -108,8 +108,8 @@ class ShuffleNetV2(nn.Module):
         
         assert input_size % 32 == 0
         
-        # self.stage_repeats = [4, 8, 4]
-        self.stage_repeats = [4, 4, 4]
+        self.stage_repeats = [4, 8, 4]
+        # self.stage_repeats = [4, 4, 4]
 
         # index 0 is invalid and should never be called. only used for indexing convenience.
         if width_mult == 0.5:

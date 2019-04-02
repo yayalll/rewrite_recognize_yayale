@@ -33,11 +33,11 @@ configer.mdlspath = './mdlpath'
 
 ## training step
 configer.batchsize = 64
-configer.n_epoch   = 250
+configer.n_epoch   = 500
 
 ## learing rate
-configer.lrbase = 0.005
-configer.stepsize = 200
+configer.lrbase = 0.001
+configer.stepsize = 300
 configer.gamma = 0.1
 
 configer.cuda = True
